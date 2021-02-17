@@ -21,6 +21,7 @@ https://gyazo.com/fab9bf059dede5b9e63e1b13071fb087
 
 ENVÍO DE INFORMACIÓN DEL CUESTIONARIO:
 
+
 https://gyazo.com/b198398f971e28c0d03046b6db31d8be
 
 https://gyazo.com/ab2ec2e54b7e050eebadcaf4857178d3
