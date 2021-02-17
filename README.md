@@ -1,70 +1,29 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ENTREGA DEL PRIMER TRABAJO DE LA ASIGNATURA DE DESARROLLO DE APLICACIONES WEB 2: CREACIÓN DE UN LOGIN Y UN FORMULARIO - Juan Manuel Ruiz Fránquiz
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para esta primera entrega he decidido realizarla en React, ya que es una tecnología que utilicé durante el desarrollo de mis prácticas externas en empresa y me pareció muy interesante y útil. Para la base de datos he utilizado Firebase, que aunque no lo había usado en el pasado, conocía de su existencia y decidí probarlo ya que su implementación se vuelve bastante sencilla una vez se aprenda a manejarlo.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Debido a que no conocía Firebase, utilicé recursos de un video de Youtube que dejo a continuación:
 
-### `yarn test`
+https://www.youtube.com/watch?v=cFgoSrOui2M&list=FLVsIjt_EGMyuav6O9d6u-WQ&index=4&t=24s&ab_channel=h3webdevtuts
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A partir del código desarrollado por el autor del video he realizado algunas modificaciones al estilo, además de añadir el cuestionario que contiene información típica (nombre, apellido, teléfono...) y la implementación del envío de información a la base de datos de Firebase con los datos del cuestionario. Como la base de datos está alojada en la nube, desconozco si podrá acceder a los contenidos de la misma para comprobar que funciona correctamente, por lo que he decidido realizar algunas capturas de pantalla mostrando la creación de un usuario para el login y el envío de los datos del cuestionario.
 
-### `yarn build`
+CREACIÓN DEL USUARIO PARA EL LOGIN (CONTRASEÑA: 123456):
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+https://gyazo.com/0fdb4880ae87e8bc8d9f28f3afb6ce41
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://gyazo.com/fab9bf059dede5b9e63e1b13071fb087
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+ENVÍO DE INFORMACIÓN DEL CUESTIONARIO:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+https://gyazo.com/b198398f971e28c0d03046b6db31d8be
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://gyazo.com/ab2ec2e54b7e050eebadcaf4857178d3
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
